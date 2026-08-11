@@ -1,0 +1,26 @@
+.navbar.navbar-light .navbar-nav .nav-item.active > .nav-link {
+  color: var(--global-text-color);
+}
+
+.navbar.navbar-light .navbar-nav .nav-item.active > .nav-link:hover,
+.navbar.navbar-light .navbar-nav .nav-item > .nav-link:hover {
+  color: var(--global-hover-color);
+}
+
+.post-description a {
+  color: var(--global-theme-color);
+  text-decoration: none;
+}
+
+.post-description a:hover {
+  color: var(--global-theme-color);
+  text-decoration: underline;
+}
+
+.publications-description {
+  margin-bottom: 0;
+}
+
+.post-header .post-description:empty {
+  display: none;
+}

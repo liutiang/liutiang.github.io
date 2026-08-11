@@ -1,0 +1,14 @@
+_site/
+.bundle/
+.jekyll-cache/
+.jekyll-metadata
+.ruby-version
+.sass-cache/
+node_modules/
+vendor/
+assets/libs/
+
+.DS_Store
+.idea/
+*.pyc
+__pycache__/
