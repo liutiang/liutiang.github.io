@@ -7,12 +7,14 @@
   color: var(--global-hover-color);
 }
 
-.post-description a {
+.post-description a,
+.academic-note a {
   color: var(--global-theme-color);
   text-decoration: none;
 }
 
-.post-description a:hover {
+.post-description a:hover,
+.academic-note a:hover {
   color: var(--global-theme-color);
   text-decoration: underline;
 }
@@ -23,4 +25,63 @@
 
 .post-header .post-description:empty {
   display: none;
+}
+
+.academic-note {
+  margin-bottom: 0.75rem;
+}
+
+.academic-section {
+  margin-bottom: 3rem;
+}
+
+.academic-divider {
+  border: 0;
+  border-top: 1px solid var(--global-divider-color);
+  margin: 3.5rem 0 3rem;
+}
+
+.academic-divider + h2 {
+  margin-top: 0;
+}
+
+.academic-list {
+  list-style: none;
+  padding-left: 0;
+}
+
+.academic-list li {
+  display: grid;
+  grid-template-columns: 7rem 1fr;
+  gap: 1rem;
+  margin-bottom: 0.65rem;
+}
+
+.academic-year {
+  color: var(--global-text-color-light);
+  white-space: nowrap;
+}
+
+.academic-item {
+  margin-bottom: 1.25rem;
+}
+
+.academic-item-header {
+  display: flex;
+  font-weight: 500;
+}
+
+@media (max-width: 576px) {
+  .academic-list li {
+    display: block;
+  }
+
+  .academic-year {
+    display: block;
+    margin-bottom: 0.15rem;
+  }
+
+  .academic-item-header {
+    display: block;
+  }
 }
