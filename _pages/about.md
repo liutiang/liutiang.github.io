@@ -20,8 +20,8 @@ latest_posts:
   enabled: false
 ---
 
-I am Tiange, a second-year Ph.D. student in Statistics at the University of Washington, where I work with Dr. Xinwei Shen on distributional learning and dimension reduction. I am broadly interested in developing machine learning and statistical tools for efficient computation.
+I am Tiange, a second-year Ph.D. student in Statistics at the University of Washington, where I work with Dr. Xinwei Shen on distributional learning and dimension reduction. I am broadly interested in developing machine learning and statistical methods that are computationally efficient and scalable to high dimensional settings.
 
-Before coming to UW, I earned a Bachelor of Science in Combined Honours Mathematics and Statistics from the University of British Columbia. I then completed my Master of Science in Statistics under the supervision of Dr. Trevor Campbell, working on computational statistics and scalable Bayesian inference.
+Before joining UW, I earned a Bachelor of Science in Combined Honours in Mathematics and Statistics from the University of British Columbia. I then completed a Master’s degree in Statistics at UBC under the supervision of Dr. Trevor Campbell, where my research focused on computational statistics and scalable Bayesian inference.
 
 In my spare time, I enjoy learning languages on Duolingo (I am about to hit the 1,000-day streak!), practicing yoga and Pilates, and listening to jazz, R&B, and city pop.
