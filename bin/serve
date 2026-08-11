@@ -1,0 +1,14 @@
+#!/bin/zsh
+
+set -euo pipefail
+
+project_dir=${0:A:h:h}
+ruby_bin=/opt/homebrew/opt/ruby@3.3/bin
+
+if [[ ! -x "$ruby_bin/bundle" ]]; then
+  print -u2 "Ruby 3.3 is missing. Install it with: brew install ruby@3.3"
+  exit 1
+fi
+
+cd "$project_dir"
+exec "$ruby_bin/bundle" exec jekyll serve "$@"
